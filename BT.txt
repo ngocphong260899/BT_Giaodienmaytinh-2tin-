@@ -1,0 +1,8 @@
+
+
+1, Cần những người biết làm
+
+Thu thập dữ liệu từ cb thời gian luuw CSDL và đk ma trận led hiển thị chữ quảng cáo theo thời gian và đk từ máy tính cac chữ quang cáo theo CSDL 
+
+
+Giám sát đóng mởi cửa sử dụng RFID sử dụng UART luwu csdl time open/close door, tạo các báo cáo theo time 
