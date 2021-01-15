@@ -1,0 +1,34 @@
+using System;
+using System.Threading;
+namespace main
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+             String name = "";
+             String sdt = "";
+             String add = "";
+             String infor = "#abc@#456@#555@";
+            String[] items = infor.Split("#");
+            for(int i = 0; i < items.Length; i++)
+            {
+                String str = items[i];
+                str = str.Length > 0 ? str.Substring(0, str.Length - 1): str;
+                //Console.WriteLine(str);
+
+                name = items[0];
+                sdt = items[1];
+                add = items[2];
+
+                Console.WriteLine(@"this is name " + name);
+
+
+
+            }
+           
+
+
+        }
+    }
+}
